@@ -1,0 +1,58 @@
+body{
+    background-color: #00030c;
+    color: #E5E5E5;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.texto--a1{
+    font-size: 18px;
+    color: #E5E5E5;
+
+}
+
+.livro{
+    width: 100px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+input{
+    margin-left: 200px;
+    display: block;
+    border: 2px #E5E5E5 ;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 20px;
+    
+}
+
+a{
+    border: #E5E5E5 2px ;
+    background-color: #3d3af7;
+    padding: 10px;
+    border-radius: 25px;
+    height: 20px;
+    width: 40px;
+    text-decoration: none;
+    
+}
+
+#banner{
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-top: 55px;
+
+
+}
+
+footer{
+    text-align: center;
+}

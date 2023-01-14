@@ -1,0 +1,19 @@
+body{
+    background-color: #00030c;
+    color: #FFFFFF;
+}
+
+h1{
+    text-align: center;
+}
+
+#portuguespag{
+    width: 20%;
+    margin-left: 40%;
+}
+
+.videos__br{
+    display: flex;
+    
+
+}

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*Cores para utilizar :
+verde : #1a5c38 
+verde do background:#84e1ad
+
+*/
+
+*{
+    margin: 0;
+}
+
+
+header{
+    background-image: linear-gradient( to top,#1a5c38 50% , #248d53 );
+    color: #FFFFFF;
+}
+
+
+header > h1{
+    padding: 20px;
+    text-align: justify;
+}
+
+.container__tituloprincipal{
+    text-align: center;
+    
+    
+}
+.container__titulosecundario{
+    text-align: center;
+    
+}
+
+ul{
+    display: flex;
+    padding: 20px;
+}
+
+ul > li{
+    list-style: none;
+}
+
+li > a{
+    color: #FFFFFF;
+    font-size: 1em;
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+}
+
+li > a:hover{
+    border: 2px solid #ddffec;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+a{
+    color: #1a5c38;
+}
+
+
+main{
+    background-color: #84e1ad;
+    
+}
+
+
+.container__principal{
+    background-color: #FFFFFF;
+    margin: 0px 250px 0px 250px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.432);
+    border-radius: 15px;
+}
+
+
+.container__titulobase{
+    text-align: left;
+    color: #1a5c38;
+    font-size: 2em;
+}
+
+.container__titulo{
+    color: #1a5c38;
+}
+
+article{
+    padding: 20px;
+  
+}
+
+article > p{
+    text-indent: 2em;
+    text-align: justify;
+    font-size: 1.5em;
+    margin: 20px 20px 20px 20px;
+    padding: 0px 5px 0px 5px;
+}
+
+.container__titulo{
+    background-image: linear-gradient(to right, #84e1ad , #ffffff);
+    margin-left: 20px;
+}
+
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.video{
+    background-color: #1a5c38;
+}
+
+.titulodois{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #1a5c38;
+    color: #FFFFFF;
+    border-radius: 10px  10px 0px 0px;
+    padding: 10px;
+}
+
+.fundotres{
+    background-color: #84e1ad;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 500px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.final{
+    background-color: #FFFFFF;
+}
+
+ol{
+    display: inline-block;
+}
+
+footer{
+    background-color: #1a5c38;
+}
+

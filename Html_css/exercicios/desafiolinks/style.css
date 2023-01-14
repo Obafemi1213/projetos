@@ -1,0 +1,95 @@
+body{
+    background-color: #363636;
+    color: antiquewhite;
+    margin-left: 30px;
+    font-size: 20px ;
+    
+}
+#face{
+    background-color: antiquewhite;
+    max-width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    list-style: none;   
+}
+
+#face:hover{
+    background-color: #FFDEAD;
+    transition: 0.7s;
+}
+
+#insta{
+    background-color: antiquewhite;
+    max-width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    list-style: none
+    
+}
+#insta:hover{
+    background-color: #FFDEAD;
+    transition: 0.7s;
+
+}
+#whats{
+    background-color: antiquewhite;
+    max-width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    list-style: none
+}
+#whats:hover{
+    background-color: #FFDEAD;
+    transition: 0.7s;
+
+}
+#linkdin{
+    background-color: antiquewhite;
+    max-width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    list-style: none
+}
+#linkdin:hover{
+    background-color: #FFDEAD;
+
+}
+
+#twiter{
+    background-color: antiquewhite;
+    max-width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    list-style: none
+}
+#twiter:hover{
+    background-color: #FFDEAD;
+    transition: 0.7s;
+
+}
+
+
+#coracao{
+    background-color: antiquewhite;
+    max-width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    list-style: none
+    
+}
+#coracao:hover{
+    background-color: aqua;
+    transition: 0.7s;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+

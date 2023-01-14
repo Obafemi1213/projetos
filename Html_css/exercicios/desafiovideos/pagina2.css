@@ -1,0 +1,22 @@
+body{
+    background-color: #00030c;
+    color: antiquewhite;
+}
+
+
+h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#ingles{
+    border: 5px #FFF;
+    border-radius: 15px;
+    padding: 40px;
+
+}
