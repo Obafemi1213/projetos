@@ -1,13 +1,29 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2? family= Kaushan+Script & family= Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100; 1.200;1.300;1.400;1.500;1.600 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Kaushan+Script & family= Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100; 1.200;1.300;1.400;1.500;1.600 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Kaushan+Script & família= Wallpoet &family= Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100; 1.200;1.300;1.400;1.500;1.600 & display=swap');
+
+:root{
+   --font1: 'Work Sans', sem serifa;
+   --font2: 'Kaushan Script', cursiva;
+   --font3: 'Work Sans', sem serifa;
+
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html , body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font2);
 }
 
 header{
@@ -17,9 +33,11 @@ header{
 
 }
 
-header > h1c{
+header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
 
 }
 
@@ -44,6 +62,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -58,7 +77,7 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    display:inline-block;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
